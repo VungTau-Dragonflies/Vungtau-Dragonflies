@@ -385,6 +385,21 @@ line-height:1.7;
     margin-bottom: 40px;
 }
 
+.squadron-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.squadron-grid .crew-member {
+    flex: 0 0 150px;
+    width: 150px;
+    text-align: center;
+
 /* AI ALTER EGO PAGE */
 
 .alter-ego-page {
